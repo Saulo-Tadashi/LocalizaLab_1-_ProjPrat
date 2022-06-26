@@ -1,0 +1,6 @@
+#Ignorar arquivos de pré-compilação, configuração de IDE, arquivos de DEBUG, e etc
+bin/
+obj/
+.vscode/
+*~
+.vs/
