@@ -10,6 +10,8 @@ namespace DIO.Series
 
 		private int Ano { get; set; }
 
+		private bool Excluido { get; set; }
+
 	}
 
 	public Serie (int id, Genero genero, string titulo, string descricao, int ano)
@@ -43,4 +45,6 @@ namespace DIO.Series
 	public string retornarTitulo ()	{ return this.Titulo }
 
 	public int retornarId () { return this.Id }
+
+	public void excluir () { this.Excluido = true; }
 }
