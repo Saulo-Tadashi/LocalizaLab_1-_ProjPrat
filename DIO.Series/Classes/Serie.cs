@@ -49,5 +49,7 @@ namespace DIO.Series
 		public int retornarId () { return this.Id; }
 
 		public void excluir () { this.Excluido = true; }
+
+		public bool retornarExcluido() { return this.Excluido; }
 	}
 }
